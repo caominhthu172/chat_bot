@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>I have no answer for that.</template>
+  </category>
+<category>
+    <pattern>xin chào</pattern>
+    <template>Chào bạn, Bạn muốn tôi giúp đỡ gì?</template>
+</category>
+
+<category>
+    <pattern>tôi không muốn gì</pattern>
+    <template>Oke
+</template>
+</category>
+<category>
+    <pattern>tôi muốn mua cám</pattern>
+    <template>oke bạn
+<carousel>
+    
+    <card>
+        <image>https://widget.pandorabots.com/prod/assets/pb-robot.svg</image>
+        <title>Insert Title</title>
+        <subtitle>Insert Subtitle</subtitle>
+        <button>
+            <text>Cám heo</text>
+            <postback>Insert Cám heo</postback>
+        </button>        <button>
+            <text>Insert Text</text>
+            <postback>Insert Postback</postback>
+        </button>
+        <button>
+            <text>Insert Text</text>
+            <postback>Insert Postback</postback>
+        </button>
+    </card>
+    <card>
+        <image>https://widget.pandorabots.com/prod/assets/pb-robot.svg</image>
+        <title>Insert Text</title>
+        <subtitle>Insert Subtitle</subtitle>
+        <button>
+            <text>Insert Text</text>
+            <postback>Insert Postback</postback>
+        </button>
+        <button>
+            <text>Insert Text</text>
+            <postback>Insert Postback</postback>
+        </button>
+        <button>
+            <text>Insert Text</text>
+            <postback>Insert Postback</postback>
+        </button>
+    </card>
+</carousel></template>
+</category>
+<category>
+    <pattern>cám heo</pattern>
+    <template>Edit bot response</template>
+</category>
+</aiml>
